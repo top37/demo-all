@@ -1,0 +1,5 @@
+<Root>
+    <classPath>${classPath}</classPath>
+    <className>${className}</className>
+    <helloWorld>${helloWorld}</helloWorld>
+</Root>

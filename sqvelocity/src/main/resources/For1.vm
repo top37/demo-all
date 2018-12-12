@@ -1,0 +1,10 @@
+#set(  $ok = "正常" )
+#foreach( $key in $ncReportContent.keySet() )
+    $foreach.count 号凭证 $key :
+    #if( !$ncReportContent.get($key) == $ok )
+        #else
+    $ncReportContent.get($key)
+        #end
+-----
+#end
+
